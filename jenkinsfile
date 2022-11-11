@@ -1,0 +1,36 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building'
+            }
+        }
+		stage('Flow') {
+            steps {
+                echo 'Flowing'
+            }
+        }
+		stage('Stop') {
+            steps {
+                echo 'Stopping'
+            }
+        }
+		stage('Buy') {
+            steps {
+                echo 'Buying'
+            }
+        }
+		stage('Regards') {
+            steps {
+                echo 'Regarding'
+            }
+        }
+		stage('End') {
+            steps {
+                echo 'Ending'
+            }
+        }
+    }
+}
