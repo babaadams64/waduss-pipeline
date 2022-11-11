@@ -17,12 +17,12 @@ pipeline {
                 echo 'Stopping'
             }
         }
-		stage('Buy') {
+		stage('Lampard') {
             steps {
-                echo 'Buying'
+                echo 'Lamparding'
             }
         }
-		stage('Regards') {
+		stage('Drogba') {
             steps {
                 echo 'Regarding'
             }
